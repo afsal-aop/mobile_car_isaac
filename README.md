@@ -65,9 +65,8 @@ Navigate to your Isaac Sim installation directory and run the startup script.
 
 If you want to quickly run the project:
 - Open Isaac Sim
-- Load the provided file:
-- `mobile_car.usd` 
-![ProjectStructure](./Images/ProjectStructure.png)
+- Load the provided file:  
+ [Download USD Model](./abc.usd)
 - Continue with ROS 2 integration steps
 
 ✅ This is the fastest way to get started

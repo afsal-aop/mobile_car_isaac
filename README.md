@@ -7,7 +7,7 @@ This project is a Digital Twin of a Two-Wheeled Mobile Robot built using NVIDIA 
 - A beginner can understand and run it
 - A developer can extend it
 - A robotics learner can build their own robot
-
+---
 ### 🧠 Project Architecture
 The project consists of 3 main parts:
 #### 1. 🖥️ Simulation (Isaac Sim)
@@ -26,3 +26,12 @@ The project consists of 3 main parts:
 - DC Motors + Motor Driver
 
 ![ProjectStructure](./Images/ProjectStructure.png)
+
+---
+###⚙️ Requirements
+####🖥️ Software
+Install the following:
+- Ubuntu 22.04
+- ROS 2 Humble
+- NVIDIA Isaac Sim
+- Python 3.10

@@ -124,9 +124,10 @@ action graph image ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - Use keys:  
   - i → forward  
   - j / l → turn  
-  - k → stop  
+  - k → stop
+    
 *✅ Result*  
-Robot responds to keyboard input
-Moves forward, turns, and stops in simulation
+Robot responds to keyboard input  
+Moves forward, turns, and stops in simulation  
 
 ---

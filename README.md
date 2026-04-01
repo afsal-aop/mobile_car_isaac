@@ -122,7 +122,7 @@ action graph image ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Configure each node as follows:
 -  ROS2 Subscribe Twist
    - Set Topic Name → /cmd_vel
-   - (Node ID can be left as default)
+   - (Node ID can be left as default)  
 👉 This receives movement commands from ROS 2  
 
 -  Differential Controller

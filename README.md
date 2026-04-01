@@ -25,8 +25,6 @@ The project consists of 3 main parts:
 - Buck Converter
 - DC Motors + Motor Driver
 
-![ProjectStructure](./Images/ProjectStructure.png)
-
 ---
 ### ⚙️ Requirements
 #### 🖥️ Software
@@ -78,9 +76,15 @@ If you want to quickly run the project:
 If you want to understand how the robot is designed programmatically, you can build it using the Python scripts provided in this repository.
 - All component-level scripts are available inside:
 `digital_twin_isaac/`
-*Each file is responsible for creating a specific part of the robot (wheels, base, motors, etc.), and the complete robot can be generated using the main script.*
+*Each file is responsible for creating a specific part of the robot (wheels, base, motors, etc.), and the complete robot can be generated using the main script.*  
 ![Script_Editor](./Images/script_editor.jpg)
-
+- Copy the Python code (e.g., car.py or any component file)
+- Open Isaac Sim
+- Go to:
+`Window → Script Editor`
+- Select the Python tab
+- Paste the code
+- Click Run ▶️
 
 #### Option 3: Want to build the robot from scratch? (Manually)
 

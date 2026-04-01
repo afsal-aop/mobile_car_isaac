@@ -1,43 +1,43 @@
 # Digital Twin Mobile Robot using Isaac Sim + ROS 2
 
-### 📌 Overview
+## 📌 Overview
 This project is a Digital Twin of a Two-Wheeled Mobile Robot built using NVIDIA Isaac Sim and integrated with ROS 2 (Humble).
 
-#### This project is designed in such a way that:
+### This project is designed in such a way that:
 - A beginner can understand and run it
 - A developer can extend it
 - A robotics learner can build their own robot
 ---
-### 🧠 Project Architecture
+## 🧠 Project Architecture
 The project consists of 3 main parts:
-#### 1. 🖥️ Simulation (Isaac Sim)
+### 1. 🖥️ Simulation (Isaac Sim)
 - 3D robot model
 - Physics simulation
 - Sensors (Camera, LiDAR)
 - Action Graph for control
-#### 2. 🔗 Middleware (ROS 2)
+### 2. 🔗 Middleware (ROS 2)
 - Communication bridge
 - Topic-based control (/cmd_vel)
 - Keyboard + Joystick input
-#### 3. ⚙️ Hardware (Real Robot)
+### 3. ⚙️ Hardware (Real Robot)
 - Raspberry Pi (Ubuntu + ROS 2)
 - Arduino Nano (Motor control)
 - Buck Converter
 - DC Motors + Motor Driver
 
 ---
-### ⚙️ Requirements
-#### 🖥️ Software
+## ⚙️ Requirements
+### 🖥️ Software
 Install the following:
 - Ubuntu 22.04
 - ROS 2 Humble
 - NVIDIA Isaac Sim
 - Python 3.10
 ---
-### 🚀 Launching Isaac Sim
+## 🚀 Launching Isaac Sim
 After successfully installing all the required software, the next step is to launch NVIDIA Isaac Sim with the ROS 2 environment properly configured.
 
-#### 📌 Step 1: Source ROS 2 Environment
+### 📌 Step 1: Source ROS 2 Environment
 Before opening Isaac Sim, you must source the ROS 2 setup file. This ensures that all ROS 2 commands and packages are available in your terminal session.
 
 `source /opt/ros/humble/setup.bash`
@@ -45,21 +45,21 @@ Before opening Isaac Sim, you must source the ROS 2 setup file. This ensures tha
 *⚠️ Important:*
 This step must be performed every time you open a new terminal before working with ROS 2 or Isaac Sim.
 
-#### 📌 Step 2: Launch Isaac Sim
+### 📌 Step 2: Launch Isaac Sim
 Navigate to your Isaac Sim installation directory and run the startup script.
 
 `/home/tiger/isaac-sim/isaac-sim.sh`
 
 🔁 Replace /home/tiger/isaac-sim/ with the actual path where Isaac Sim is installed on your system.
 
-#### ✅ Expected Result
+### ✅ Expected Result
 - Isaac Sim application will launch
 - You will see the main interface with viewport, stage, and tool panels
 - The environment is now ready for simulation and ROS 2 integration
 ---
-### 🏗️ Robot Setup Options
+## 🏗️ Robot Setup Options
 
-#### Option 1: Use Pre-Built Model (Recommended)
+### Option 1: Use Pre-Built Model (Recommended)
 
 If you want to quickly run the project:
 - Open Isaac Sim
@@ -71,7 +71,7 @@ If you want to quickly run the project:
 
 
 
-#### 🏗️ Option 2: Build the Robot from Scratch (Using Python Scripts)
+### 🏗️ Option 2: Build the Robot from Scratch (Using Python Scripts)
 
 If you want to understand how the robot is designed programmatically, you can build it using the Python scripts provided in this repository.
 - All component-level scripts are available inside:  
@@ -86,14 +86,14 @@ If you want to understand how the robot is designed programmatically, you can bu
 - Paste the code
 - Click Run ▶️
 
-#### Option 3: Want to build the robot from scratch? (Manually)
+### Option 3: Want to build the robot from scratch? (Manually)
 
 Check the detailed guide here:  
 👉 [Build_from_scratch](./build_from_scratch.md)
 
 ---
 
-### 🎮 Controlling the Robot using ROS 2 (Keyboard)
+## 🎮 Controlling the Robot using ROS 2 (Keyboard)
 
 After building the robot, the next step is to connect it with ROS 2 and control it using the keyboard.  
 **🔗 Enable ROS 2 Bridge**  
@@ -103,7 +103,7 @@ ros2_bridge_library img ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - Search ROS 2
 - Enable: Omni.isaac.ros2_bridge
 
-#### 🧩 Setup Action Graph
+### 🧩 Setup Action Graph
 action graph image ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - Go to:
   `Window → Visual Scripting → Action Graph`
@@ -117,7 +117,7 @@ action graph image ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 👉 Connect them as shown in the image
 
 
-#### ⚙️ Node Configuration (Important)
+### ⚙️ Node Configuration (Important)
 
 Configure each node as follows:
 -  ROS2 Subscribe Twist
@@ -142,7 +142,7 @@ Wrong wheel values → incorrect turning
 Wrong joint names → robot will not move
 
 
-#### ▶️ Run & Control
+### ▶️ Run & Control
 - Click Play ▶️ in Isaac Sim
 - Open terminal:  
 `source /opt/ros/humble/setup.bash`  

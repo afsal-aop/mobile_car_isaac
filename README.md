@@ -71,7 +71,18 @@ If you want to quickly run the project:
 
 ✅ This is the fastest way to get started
 
-#### Option 3: Want to build the robot from scratch?
+
+
+#### 🏗️ Option 2: Build the Robot from Scratch (Using Python Scripts)
+
+If you want to understand how the robot is designed programmatically, you can build it using the Python scripts provided in this repository.
+- All component-level scripts are available inside:
+`digital_twin_isaac/`
+*Each file is responsible for creating a specific part of the robot (wheels, base, motors, etc.), and the complete robot can be generated using the main script.*
+![Script_Editor](./Images/script_editor.jpg)
+
+
+#### Option 3: Want to build the robot from scratch? (Manually)
 
 Check the detailed guide here:  
 👉 [Build_from_scratch](./build_from_scratch.md)

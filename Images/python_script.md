@@ -4,7 +4,7 @@ If you want to understand how the robot is designed programmatically, you can bu
 - All component-level scripts are available inside:  
 `digital_twin_isaac/`  
 *Each file is responsible for creating a specific part of the robot (wheels, base, motors, etc.), and the complete robot can be generated using the main script.*  
-![Script_Editor](./Images/script_editor.jpg)
+![Script_Editor](script_editor.jpg)
 - Copy the Python code (e.g., wheel.py or any component file)
 - Open Isaac Sim
 - Go to:

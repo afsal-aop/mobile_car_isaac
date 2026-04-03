@@ -5,7 +5,7 @@ To achieve a more accurate and realistic model, the robot components are created
 `digital_twin_isaac/`  
 - Each file represents an individual part (wheel, base, motor, etc.), and the full robot can be generated using the main script.
 ---
-**▶️ Run Scripts in Isaac Sim**
+### ▶️ Run Scripts in Isaac Sim
 ![Script_Editor](script_editor.jpg)
 - Open Isaac Sim
 - Go to:  

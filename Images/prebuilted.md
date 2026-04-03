@@ -1,10 +1,21 @@
-### Option 1: Use Pre-Built Model (Recommended)
+## 🚀 Using the Pre-Built Robot Model (Quick Start)
 
-If you want to quickly run the project:
+If you want to run the project quickly without building from scratch, you can directly use the provided USD model.
+
+### ▶️ Steps to Load the Model
 - Open Isaac Sim
-- Load the provided file:  
- [Download USD Model](./abc.usd)
-- Continue with ROS 2 integration steps
+- Click:  
+`File → Open`
+- Select the model file:  
+[Download USD Model](./abc.usd)  
+- Open the file in the scene
 
-✅ This is the fastest way to get started
----
+### ✅ Outcome
+- Robot loads instantly in the simulation
+- No need to manually build components
+- Fastest way to start testing and control
+
+  ## ⚡ What to Do Next
+- Once loaded, proceed with:
+- ROS 2 connection
+- Control setup (keyboard / joystick)

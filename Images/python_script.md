@@ -23,5 +23,5 @@ To achieve a more accurate and realistic model, the robot components are created
 - Once loaded, proceed with:
 - ROS 2 connection
 - Control setup (keyboard / joystick)
-### [⬅️ Previous](../index.md) | [Next ➡️](../index.md)
+### [⬅️ Previous](../index.md) | [Next ➡️](./ros2_keyboard.md)
 

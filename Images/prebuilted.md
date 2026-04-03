@@ -20,4 +20,4 @@ If you want to run the project quickly without building from scratch, you can di
 - Once loaded, proceed with:
 - ROS 2 connection
 - Control setup (keyboard / joystick)
-### [⬅️ Previous](../index.md) | [Next ➡️](../index.md)
+### [⬅️ Previous](../index.md) | [Next ➡️](./ros2_keyboard.md)

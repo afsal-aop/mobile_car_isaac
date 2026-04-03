@@ -60,9 +60,9 @@ Navigate to your Isaac Sim installation directory and run the startup script.
 ---
 ## 🏗️ Robot Setup Options
 
-### Option 1:  [Use Pre-Built Model (Recommended)](./abc.usd)
+### Option 1:  [Use Pre-Built Model (Recommended)](./Images/prebuilted.md)
 
-### Option 2: [Build the Robot from Scratch (Using Python Scripts)](./abc.usd)
+### Option 2: [Build the Robot from Scratch (Using Python Scripts)](./Images/python_script.md)
 
-### Option 3: [Want to build the robot from scratch? (Manually)](./abc.usd)
+### Option 3: [Want to build the robot from scratch? (Manually)](./Images/manual.md)
 ---

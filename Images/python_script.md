@@ -1,15 +1,23 @@
-### 🏗️ Option 2: Build the Robot from Scratch (Using Python Scripts)
+## 🧱 Building the Robot Programmatically (Python)
 
-If you want to understand how the robot is designed programmatically, you can build it using the Python scripts provided in this repository.
-- All component-level scripts are available inside:  
+To achieve a more accurate and realistic model, the robot components are created using Python scripts with precise dimensions (length, width, height, and weight).
+- All component scripts are available inside:  
 `digital_twin_isaac/`  
-*Each file is responsible for creating a specific part of the robot (wheels, base, motors, etc.), and the complete robot can be generated using the main script.*  
+- Each file represents an individual part (wheel, base, motor, etc.), and the full robot can be generated using the main script.
+---
+**▶️ Run Scripts in Isaac Sim**
 ![Script_Editor](script_editor.jpg)
-- Copy the Python code (e.g., wheel.py or any component file)
 - Open Isaac Sim
-- Go to:
+- Go to:  
 `Window → Script Editor`
 - Select the Python tab
-- Paste the code
-- Click Run ▶️
+- Copy and paste any script (e.g., wheel.py, base.py, or car.py)
+- Click **Run** ▶️
 ---
+### ✅ Outcome
+- Robot components are created with accurate dimensions
+- Full model can be assembled programmatically
+- Provides better control and scalability compared to manual modeling
+---
+### [⬅️ Previous](../index.md) | [Next ➡️](../index.md)
+

@@ -35,4 +35,4 @@ If you want to run the project quickly without building from scratch, you can di
 - Configure /cmd_vel, wheel values & joints
 - Run teleop and control using keyboard 🚗
 
-### [⬅️ Previous](../index.md) | [Next ➡️](./ros2_keyboard.md)
+### [⬅️ Previous](../README.md) | [Next ➡️](./ros2_keyboard.md)

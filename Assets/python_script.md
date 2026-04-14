@@ -38,4 +38,4 @@ _Each file represents an individual part (wheel, base, motor, etc.), and the ful
 - Configure /cmd_vel, wheel values & joints
 - Run teleop and control using keyboard 🚗
 
-### [⬅️ Previous](../index.md) | [Next ➡️](./ros2_keyboard.md)
+### [⬅️ Previous](../README.md) | [Next ➡️](./ros2_keyboard.md)

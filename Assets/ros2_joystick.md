@@ -50,10 +50,9 @@
 
 ### The robot will start moving in Isaac Sim
 
-![alt text](keyboard_actiongraph_neg.png)
-Img~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~` gif
+![alt text](./joy_gif.gif)
 
-## ✅ Outcome
+### ✅ Outcome
 
 - Robot responds to joystick input
 - Smoother and more natural control compared to keyboard

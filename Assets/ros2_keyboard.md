@@ -114,4 +114,4 @@ Moves forward, turns, and stops in simulation
 - Launch teleop_twist_joy and connect controller
 - Test smooth robot movement using joystick 🎮
 
-### [⬅️ Previous](../index.md) | [Next ➡️](./ros2_joystick.md)
+### [⬅️ Previous](../README.md) | [Next ➡️](./ros2_joystick.md)

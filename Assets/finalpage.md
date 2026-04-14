@@ -2,10 +2,10 @@
 
 ### 🚀 Digital Twin in Action
 
-![alt text](./pbt-lift-1.gif)
+![alt text](./digital_twin_motion.gif)
 
-- Left → Isaac Sim (Simulation)
-- Right → Real Robot (Hardware)
+- Left → Real Robot (Hardware)
+- Right → Isaac Sim (Simulation)
 - Both respond to the same keyboard input
 
 ## 🎯 What This Project Achieves
@@ -16,7 +16,7 @@
 
 ### Control using ROS 2 (keyboard + joystick)
 
-Img~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+![](./ros2_key_joy.png)
 
 ### Accurate digital twin representation
 
@@ -29,12 +29,20 @@ Img~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
 - Hardware-software integration
 - Real-world robot control
 
-## ⚡ Possible Improvements
+## 🚀 Future Project Opportunities
 
-- Add autonomous navigation (SLAM)
-- Improve motion accuracy (PID tuning)
-- Add more sensors (camera, LiDAR processing)
-- Web dashboard for control
+_Based on this digital twin system, the following projects can be developed further:_
+
+1. **🤖 Autonomous Navigation System**  
+   _Implement SLAM and path planning to make the robot move without manual control_
+2. **📡 Remote Monitoring & Control Dashboard**  
+   _Build a web/mobile app to control and monitor robot data in real-time_
+3. **🧠 AI-Based Object Detection & Tracking**  
+   _Integrate camera with AI models to detect and follow objects_
+4. **⚙️ Predictive Maintenance System**  
+   _Use sensor + encoder data to predict motor or hardware failures_
+5. **🏭 Industrial Digital Twin Applications**  
+   _Extend this system for warehouse robots or factory automation_
 
 #### 🏁 Conclusion
 
@@ -51,4 +59,4 @@ _If you found this project useful:
 
 ## ![alt text](./generous-robots-space-robots.gif)
 
-### [🏠Home ➡️](../index.md)
+### [🏠Home ➡️](../README.md)

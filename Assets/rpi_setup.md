@@ -75,9 +75,9 @@ To run ROS 2 on the physical robot, you need to install Ubuntu OS on the Raspber
 
 ## ⚡ What to Do Next
 
-- Upload motor control code to Arduino Nano
-- Setup Raspberry Pi bridge with motor_bridge.py
-- Run script and establish Arduino communication
-- Control real robot and sync with simulation 🤖
+- Assemble all hardware components and complete wiring
+- Verify circuit connections using the diagram
+- Power the system and check basic motor response
+- Proceed with Raspberry Pi control and ROS 2 integration
 
-### [⬅️ Previous](./ros2_joystick.md) | [Next ➡️](./hardware_integration.md)
+### [⬅️ Previous](./ros2_joystick.md) | [Next ➡️](./bot_hardware.md)

@@ -46,7 +46,7 @@ python3 motor_bridge.py #starts communication with Arduino
 
 ### 🔁 Simulation + Hardware Sync
 
-Img~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~` gif
+![alt text](./digital_twin_motion.gif)
 
 - Both Isaac Sim (digital twin) and real robot work together
 - Commands are shared using ROS 2
@@ -66,4 +66,4 @@ Img~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~` gif
 - Update Action Graph to use encoder feedback
 - Sync digital twin movement with real robot 🔁
 
-### [⬅️ Previous](./rpi_setup.md) | [Next ➡️](./encoder_motor.md)
+### [⬅️ Previous](./bot_hardware.md) | [Next ➡️](./encoder_motor.md)

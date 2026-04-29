@@ -70,6 +70,10 @@
 | OUT+ (Buck Converter) | 5V (Raspberry Pi)    |
 | OUT− (Buck Converter) | GND (Raspberry Pi)   |
 
+## Complete Circuit Diagram
+
+![alt text](./full_diagram.png)
+
 ## 🧠 Connection Logic
 
 1. Raspberry Pi sends commands (ROS 2)
